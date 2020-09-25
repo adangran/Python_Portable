@@ -47,7 +47,7 @@ import site
 运行cmder（或cmd），进入到%USERPROFILE%\Local\Python\ ，运行 .\python.exe .\Scripts\pip.exe list， 结果如下：
 
 ```shell
-%USERPROFILE%\AppData\Local\Python\python.exe %USERPROFILE%\AppData\Local\Python\Scripts\pip.exe
+%USERPROFILE%\AppData\Local\Python\python.exe %USERPROFILE%\AppData\Local\Python\Scripts\pip.exe list
 Package    Version
 ---------- -------
 pip        20.2.3
@@ -72,3 +72,5 @@ wheel      0.35.1
 ```shell
 %USERPROFILE%\AppData\Local\Python\python.exe
 ```
+
+## 配置pip
